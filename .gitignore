@@ -1,0 +1,29 @@
+# Exclude Data & Audio
+data/wavs/*.wav
+data/matrices/*.npy
+data/matrices/legacy/*.npy
+data/midis/*.mid
+data/midis/legacy/*.mid
+data/spectrograms/*.png
+data/spectrograms/legacy/*.png
+data/plots/legacy/*.png
+data/plots/*.png
+data/maestro/.cache/
+data/maestro/2018/
+data/sample_wavs/
+polished/
+
+# Exclude Model Weights
+*.pt
+*.pth
+
+# Exclude Python Cache & OS files
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.api/
+
+# Exception: Allow one small sample file so people can test your code
+!data/wavs/100_Dm_Central_Piano_226_SP.wav
+!data/midis/100_Dm_Central_Piano_226_SP_cqt_locked.mid

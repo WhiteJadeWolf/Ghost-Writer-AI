@@ -27,3 +27,5 @@ __pycache__/
 # Exception: Allow one small sample file so people can test your code
 !data/wavs/100_Dm_Central_Piano_226_SP.wav
 !data/midis/100_Dm_Central_Piano_226_SP_cqt_locked.mid
+!data\matrices\100_Dm_Central_Piano_226_SP.npy
+!data\spectrograms\100_Dm_Central_Piano_226_SP_spectrogram.png

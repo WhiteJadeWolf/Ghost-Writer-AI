@@ -47,7 +47,7 @@ Ghost-Writer/
     ├── wavs/               # Raw audio input
     ├── matrices/           # Extracted .npy tensors
     ├── midis/              # Final transcription output
-    └── saved_models/       # Dynamically versioned .pt weight files
+    └── saved_models/       # .pt weight files
 ```
 ---
 
